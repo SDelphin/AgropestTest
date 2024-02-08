@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #61876E;
+    color: #EAE7B1;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1,h2,h3{
+    font-size: 2.2rem;
+    font-family: 'Berkshire Swash', serif;
+    padding-bottom:1.4rem;
+}
+
+p{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: #EAE7B1;
+}
+
+img{
+    width: 100%;
+}
+li{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.flex-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+
+#top-menu{
+    display: none;
+}
+/* rgb(113, 138, 121); */
+#hero-section{
+    background-color: rgb(91, 117, 100);
+    position: relative;
+    padding: 3rem 0;
+    background-image: url("/Images/Hero-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+#services-section{
+    margin-top: 3rem;
+}
+
+#services-section h2{
+    text-align: center;
+}
+
+/* 5c7d68 */
+/* 5a7d66 */
+.services-card{
+    width: 90%;
+    background-color: #5c7d68;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.services-icon{
+    padding-bottom: 0.9rem;
+    color: #A6BB8D;
+}
+
+.services-card img{
+    width: 55px;
+}
+
+.services-card p{
+    font-size: 1rem;
+}
+
+.services-card h3{
+    font-size: 1.4rem;
+    padding-bottom: 0.5rem;
+}
+
+#why-chose-us-section h2{
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.card{
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #61876E;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+}
+
+.card h3{
+    font-size: 1.4rem;
+    padding-bottom: .7rem;
+}
+
+.card p{
+    font-size: 1.2rem;
+}
+
+.card img{
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-container{
+    padding: 1rem;
+}
+/* Utilities */
+.button-small{
+    display: inline-block;
+    margin-top: 1.7rem;
+    padding: .7rem 1.2rem;
+    background-color: #61876E;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: .5rem;
+}
+
+.button-small:hover{
+    background-color: rgb(77, 87, 80);
+}
