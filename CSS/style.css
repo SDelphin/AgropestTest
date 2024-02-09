@@ -58,7 +58,7 @@ li{
     background-color: rgb(91, 117, 100);
     position: relative;
     padding: 3rem 0;
-    background-image: url("/Images/Hero-1.jpg");
+    background-image: url("./Images/Hero-1.jpg");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
